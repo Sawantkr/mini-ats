@@ -815,7 +815,7 @@ function App() {
                 required
                 minLength={2}
                 maxLength={100}
-                placeholder="e.g. Rahul Sharma"
+                placeholder="e.g. Sawant Kumar"
                 value={form.name}
                 onChange={(event) =>
                   setForm({ ...form, name: event.target.value })
@@ -829,7 +829,7 @@ function App() {
                 required
                 type="email"
                 maxLength={254}
-                placeholder="rahul@example.com"
+                placeholder="sawant@example.com"
                 value={form.email}
                 onChange={(event) =>
                   setForm({ ...form, email: event.target.value })
